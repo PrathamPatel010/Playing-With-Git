@@ -47,3 +47,15 @@ One more Line
 `git diff commit1 commit2` : Gives difference of all file changes between 2 commits.
 
 `git commit -m “commit message”` : To quickly give commit message instead of opening it in vim editor.
+
+`git remote` : Lists down all the remote connection names.
+
+`Remote Connection` : It helps you to link 2 git repositories for downloading and uploading changes from each other.
+
+`git remote add <name of connection> <link of connection>`  : Helps us to add new link to remote repo and give name to it.
+
+`git remote rm <name of remote>` : Deletes a remote connection.
+
+`git remote rename <oldname> <newname>` : Rename the connection. 
+
+Note : Name of remote connection is always used to communication between repos.
