@@ -63,3 +63,10 @@ Note : Name of remote connection is always used to communication between repos.
 `git add <filename1> <filename2>` : To move multiple files to staging area.
 `git add .` : To move all files to staging area.
 `git pull <remote-name> <branch-name>` : Download all the changes from the branch mentioned remote in your local repo.
+
+# Recommended Practice to do
+    - make changes
+    - git add <file>
+    - git commit -m "<message>"
+    - git pull
+    - git push
