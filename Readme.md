@@ -70,3 +70,5 @@ Note : Name of remote connection is always used to communication between repos.
     - git commit -m "<message>"
     - git pull
     - git push
+
+merge conflicts can occur if multiple people try to make changes to same file, then collaborate.
