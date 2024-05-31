@@ -35,3 +35,7 @@ When we do `git status` and we see bunch of `untracked files` , then these are a
 `git restore <filename>` : It removes all file changes from the staging area to be committed. This can be useful, if we wrote some dirty piece of code and now we don’t want it. Instead deleting every change line-by-line, we can restore it or you can say restore last clear version of the file.
 
 git restore --staged <filename> : To move back files from staged area to working area. So that we can restore the changes made by that file. Because we can’t restore the changes made in staged file, so first we have to move it to working area using this command. Then we can restore the changes.  
+
+This will only works if it is in staging area.
+
+One more Line
